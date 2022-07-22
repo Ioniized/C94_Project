@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>QuikApp</title>
+        <link rel="stylesheet" href="room.css" type="text/css">
+        <script src="room.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body class="body">
+        <div>
+            <center>
+                <h1>Welcome to QuikApp</h1>
+                <h2>Why don't you check out some of the rooms?</h2>
+                <div class="rooms" id="rooms">
+                    <h3>No rooms available. Why not create one?</h3>
+                </div>
+                <input type="text" id="inputRoom" placeholder="Enter room name"></input>
+                <div>
+                    <button id="createRoom" onclick="createRoom()" class="btn btn-primary">Create Room</button>
+                </div>
+                <br>
+                <br>
+                <button id="logout" onclick="logout()" class="btn btn-primary">Logout</button>
+            </center>
+        </div>
+    </body>
+</html>

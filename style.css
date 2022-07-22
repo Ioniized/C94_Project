@@ -1,0 +1,11 @@
+.body{
+    background-color: skyblue;
+}
+
+.slogan, .loginLabel{
+    color: rgb(255, 255, 255);
+}
+
+#username{
+    width: 300px;
+}   

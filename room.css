@@ -1,0 +1,20 @@
+.body{
+    background-color: skyblue;
+}
+
+.rooms{
+    background-color: white;
+    padding: 10px;
+    margin-top: 100px;
+    border-radius: 20px;
+    width: 1000px;
+    height: 300px;
+}
+
+#inputRoom{
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+}
